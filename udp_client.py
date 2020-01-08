@@ -12,7 +12,7 @@ target_host = "127.0.0.1"
 target_port = 80
 
 # Create a socket object.
-# AF_INET specifies ipv4.
+# AF_INET specifies ipv4 protocol.
 # SOCK_DGRM specifies that the protocol is UDP.
 client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 # Send some data to the server. 
